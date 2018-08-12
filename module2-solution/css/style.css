@@ -1,0 +1,114 @@
+*{
+
+	box-sizing: border-box;
+}
+
+
+
+.menu{
+
+ text-align: center;
+ color: darkred;
+ margin-top: 35px;
+ font-size: 40px;
+
+}
+
+
+.inner-content{
+
+    position: relative;
+    top: 30px;
+	border: 2px solid black;
+	background-color: lightGray;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	
+}
+
+
+.inner-content > p {
+	padding: 5%;
+}
+
+
+
+.tag{
+	position: relative;
+	top: 0;
+	float: right;
+	padding: 5px 20px 5px 20px;
+	border-left: 2px solid #000;
+	border-bottom: 2px solid #000;
+	background: pink;
+}
+
+.tag1{
+	position: relative;
+	top: 0;
+	float: right;
+	padding: 5px 20px 5px 20px;
+	border-left: 2px solid #000;
+	border-bottom: 2px solid #000;
+	background: honeydew;
+}
+
+.tag2{
+	position: relative;
+	top: 0;
+	float: right;
+	padding: 5px 20px 5px 20px;
+	border-left: 2px solid #000;
+	border-bottom: 2px solid #000;
+	background: lightblue;
+}
+
+
+
+
+
+.row{
+
+	width: 100%;
+}
+
+
+
+.col-lg-4, .col-md-6, .col-sm-12, .col-md-12{
+	float: left;
+	padding: 10px;
+}
+
+
+@media(min-width: 992px){
+
+.col-lg-4{
+
+	width: 33%;
+}
+
+}
+
+
+@media(min-width: 768px) and (max-width: 991px){
+
+ .col-md-6{
+ 	
+ 	width: 50%;
+ }
+ .col-md-12{
+ 	width: 100%;
+ }
+
+
+}
+
+
+@media(max-width: 767px){
+.col-sm-12{
+
+	width: 100%;
+}
+
+}
